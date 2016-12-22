@@ -29,3 +29,14 @@
 28. It is common in AngularJS applications to put the module and the controllers in JavaScript files.  
 29. The [] parameter in the module definition can be used to define dependent modules.  
 30. Without the [] parameter, you are not creating a new module, but retrieving an existing one.  
+31. Global functions should be avoided in JavaScript. They can easily be overwritten or destroyed by other scripts.  
+32. AngularJS modules reduces this problem, by keeping all functions local to the module.  
+33. calls to angular.module can only be compiled after the angular library has been loaded.  
+34. AngularJS also lets you define your own directives.  
+35. AngularJS directives are extended HTML attributes with the prefix ng-  
+36. The ng-repeat directive repeats an HTML element.  
+37. The ng-repeat directive actually clones HTML elements once for each item in a collection.  
+38. The ng-init directive defines initial values for an AngularJS application.  
+39. In addition to all the built-in AngularJS directives, you can create your own directives. New directives are created by using the .directive function.  
+40. When naming a directive, you must use a camel case name, w3TestDirective, but when invoking it, you must use - separated name, w3-test-directive.
+41. You can restrict your directives to only be invoked by some of the methods.  
