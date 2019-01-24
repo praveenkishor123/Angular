@@ -28,3 +28,15 @@
 * We can restrict our directives to only be invoked by some of the methods
 
 
+# Code samples
+
+* Angular Expression - https://github.com/praveenkishor123/Angular/blob/master/angularExpressionExample.html
+
+* Simple greeting message display - https://github.com/praveenkishor123/Angular/blob/master/angularExpressionExample.html
+
+* ng-bind directive - https://github.com/praveenkishor123/Angular/blob/master/ngBindExample.html
+
+* ng-repeat directive - https://github.com/praveenkishor123/Angular/blob/master/ngRepeatExample.html
+
+* ng-model and ng-bind - https://github.com/praveenkishor123/Angular/blob/master/simpleDirectiveExample.html
+
